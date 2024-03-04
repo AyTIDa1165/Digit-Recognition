@@ -1,2 +1,2 @@
-# Digit-Recognition
-A simple Machine Learning Model that identifies digits from the MNIST dataset using Principle Component Analysis (PCA) and Quadratic Discriminant Analysis (QDA) classifier upto 92.67% accuracy.
+# MNIST Digit Recognition Using PCA and QDA
+A simple Machine Learning Model that classifies handwritten digits (from 0 to 9) using Principal Component Analysis (PCA) for feature extraction and Quadratic Discriminant Analysis (QDA) for classification. Two different approaches are explored: one without PCA and another with PCA applied before QDA. The performance of the classifiers is evaluated based on overall accuracy and per-label accuracy. The two approaches in the ML model yield an overall recognition accuracy upto 85.72% and 92.67% respectively.
